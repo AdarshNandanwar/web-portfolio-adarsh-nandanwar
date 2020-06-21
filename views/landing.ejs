@@ -1,0 +1,230 @@
+<% include partials/header %>
+
+<div id="particles-js"></div>
+
+<section id="landing">
+    <div class="container">
+        <div class="row">
+            <div id="home-top">
+            </div>
+            <% if(message && message.length > 0){ %>
+            <div class="container">
+                <div class="text-center" id="message-box" role="alert">
+                    <%= message %>
+                </div>
+            </div>
+            <% } %>
+            <div class="col-md-6 offset-md-3">
+                <div id="home">
+                    <div id="profileContent" class="profileBox">
+                        <img id="profilePic" src="https://i.imgur.com/Lkcbbtl.jpg">
+                    </div>
+                    <div id="name">
+                        <h1 style="font-size: 4vh;">Adarsh Nandanwar</h1>
+                        <h2 style="color: grey; font-size: 3vh;">Coder | Designer | Developer</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <div class="parallax-window text-center" data-parallax="scroll" data-z-index="1"
+        data-image-src="https://i.imgur.com/k4zaTCM.jpg">
+        <h3 class="parallax-info">About</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center info" id="aboutContent">
+                <p>Hello!<br>I'm Adarsh Nandanwar, a web designer, web developer and coder. My skills are broad ranging
+                    form front end to back end web development. I enjoy building user-friendly web applications. I also
+                    love competitive coding and am proficient in C++. </p>
+                <p><a class="btn btn-black"
+                        href="https://drive.google.com/uc?authuser=0&id=1Sr2gX6SxzTPHzQzVe9do5uwabiJQdFZL&export=download"
+                        id="resume-link"><i class="fas fa-download"></i> Resume</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="skills">
+    <!-- https://unsplash.com/photos/d7CZYeWZyzc -->
+    <div class="parallax-window text-center" data-parallax="scroll" data-z-index="1"
+        data-image-src="https://i.imgur.com/01znDBp.jpg">
+        <h3 class="parallax-info">Skills</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center info" id="skillsContent">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text">C</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text">C++</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text"><i class="fab fa-java"></i> Java</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text"><i class="fab fa-python"></i> Python</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text">Django</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text"><i class="fab fa-git-alt"></i> Git</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text"><i class="fab fa-html5"></i> HTML</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text"><i class="fab fa-css3-alt"></i> CSS</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text"><i class="fab fa-js"></i> JavaScript</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text">jQuery</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text"><i class="fab fa-node-js"></i> Node.js</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card card-body skill-card">
+                            <h5 class="card-title text-center skill-text"><i class="fas fa-database"></i> MongoDB</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="projects">
+    <!-- https://www.pexels.com/photo/black-road-bike-leaning-on-red-blue-and-white-wing-graffiti-wall-545008/ -->
+    <div class="parallax-window text-center" data-parallax="scroll" data-z-index="1"
+        data-image-src="https://i.imgur.com/FXSrU2Z.jpg">
+        <h3 class="parallax-info">Projects</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center info" id="projectsContent">
+                <div class="row">
+
+                    <% var counter = 0; %>
+                    <% projects.forEach(function(project){ %>
+                    <div class="col-md-6 col-lg-4">
+                        <a data-toggle="modal" data-target="#myModal<%= counter %>">
+                            <div class="card project-card">
+                                <img class="card-img-top project-image" src="<%= project.image %>" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title" style="margin: 0;"><%= project.title %></h5>
+                                    <!-- <p class="card-text"><%= project.description %></p> -->
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="modal fade" id="myModal<%= counter %>" tabindex="-1" role="dialog" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-full" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body p-4" id="result">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h5 class="card-title"><%= project.title %></h5>
+                                        </div>
+                                    </div>
+                                    <div class="row modal-description">
+                                        <div class="col-md-6">
+                                            <img class="card-img-top project-image" src="<%= project.image %>" alt="Card image">
+                                        </div>
+                                        <div class="col-md-6" style="padding-top: 20px;">
+                                            <p class="card-text"><%= project.description %></p>
+                                            <% if(project.link.length > 0){ %>
+                                                <a href="<%= project.link %>">View project</a>
+                                            <% } %>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <% counter++; %>
+                    <% }) %>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="parallax-window text-center" data-parallax="scroll" data-z-index="1"
+        data-image-src="https://i.imgur.com/Cr112zV.jpg">
+        <h3 class="parallax-info">Contact Me</h3>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center info" id="contactContent">
+                <form action="/contact" method="post">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="fname">First Name</label>
+                            <input type="text" class="form-control" name="message[firstname]" id="fname"
+                                placeholder="First Name" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="lname">Last Name</label>
+                            <input type="text" class="form-control" name="message[lastname]" id="lname"
+                                placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="message[email]" id="email" placeholder="Email"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mobilenumber">Mobile Number</label>
+                        <input type="tel" class="form-control" name="message[mobilenumber]" id="mobilenumber"
+                            placeholder="Mobile Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" rows="5" name="message[content]" id="message"
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-black">Send<i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+<% include partials/footer %>

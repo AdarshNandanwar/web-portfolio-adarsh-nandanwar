@@ -1,0 +1,28 @@
+{
+  "name": "restful-web-portfolio-project",
+  "version": "1.0.0",
+  "description": "Web Portfolio using Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdarshNandanwar/RESTful-Web-Portfolio-Project.git"
+  },
+  "author": "Adarsh Nandanwar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdarshNandanwar/RESTful-Web-Portfolio-Project/issues"
+  },
+  "homepage": "https://github.com/AdarshNandanwar/RESTful-Web-Portfolio-Project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.3",
+    "nodemailer": "^6.4.2",
+    "particles.js": "^2.0.0"
+  }
+}
