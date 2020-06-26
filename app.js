@@ -29,7 +29,6 @@ app.get("/", function(req, res){
         }else{
             var tempMsg = msg;
             msg = "";
-            console.log("FLASH MESSAGE: "+tempMsg);
             res.render("landing", {projects: projects, message: tempMsg});
         }
     });
